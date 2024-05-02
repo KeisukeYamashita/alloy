@@ -48,6 +48,8 @@ Main (unreleased)
 - Flow: Fix an issue where `faro.receiver`'s `extra_log_labels` with empty value don't
   map existing value in log line. (@hainenber)
 
+- Fix an issue where `loki.source.docker` stops collecting logs after a container restart. (@wildum)
+
 ### Other changes
 
 - Update `alloy-mixin` to use more specific alert group names (for example,
